@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "/Users/wojciech/Documents/car-recognition-android/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/wojciech/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/wojciech/Documents/car-recognition-android/app/.externalNativeBuild/cmake/mockDebug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "dlib-Debug-arm64-v8a": {
+      "artifactName": "dlib",
+      "buildCommand": "/Users/wojciech/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/wojciech/Documents/car-recognition-android/app/.externalNativeBuild/cmake/mockDebug/arm64-v8a --target dlib",
+      "abi": "arm64-v8a",
+      "output": "/Users/wojciech/Documents/car-recognition-android/app/build/intermediates/cmake/mock/debug/obj/arm64-v8a/libdlib.so"
+    },
+    "native-lib-Debug-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/wojciech/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/wojciech/Documents/car-recognition-android/app/.externalNativeBuild/cmake/mockDebug/arm64-v8a --target native-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/wojciech/Documents/car-recognition-android/app/build/intermediates/cmake/mock/debug/obj/arm64-v8a/libnative-lib.so"
+    }
+  }
+}

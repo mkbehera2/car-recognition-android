@@ -1,0 +1,4 @@
+/Users/wojciech/Documents/car-recognition-android/app/.externalNativeBuild/cmake/productionDebug/arm64-v8a/CMakeFiles/native-lib.dir
+/Users/wojciech/Documents/car-recognition-android/app/.externalNativeBuild/cmake/productionDebug/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/wojciech/Documents/car-recognition-android/app/.externalNativeBuild/cmake/productionDebug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/wojciech/Documents/car-recognition-android/app/.externalNativeBuild/cmake/productionDebug/arm64-v8a/CMakeFiles/dlib.dir

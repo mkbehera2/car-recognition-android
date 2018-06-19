@@ -1,0 +1,89 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/wojciech/Documents/car-recognition-android/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/wojciech/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/wojciech/Documents/car-recognition-android/app/.externalNativeBuild/cmake/productionRelease/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"dlib-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "dlib",
+			"buildCommand" : "/Users/wojciech/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/wojciech/Documents/car-recognition-android/app/.externalNativeBuild/cmake/productionRelease/arm64-v8a --target dlib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/wojciech/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/wojciech/Library/Android/sdk/ndk-bundle/sysroot  -Ddlib_EXPORTS -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/wojciech/Documents/car-recognition-android/app/src/main/cpp/dlib/threads/threads_kernel_shared.cpp",
+					"workingDirectory" : "/Users/wojciech/Documents/car-recognition-android/app/.externalNativeBuild/cmake/productionRelease/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/wojciech/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/wojciech/Library/Android/sdk/ndk-bundle/sysroot  -Ddlib_EXPORTS -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/wojciech/Documents/car-recognition-android/app/src/main/cpp/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp",
+					"workingDirectory" : "/Users/wojciech/Documents/car-recognition-android/app/.externalNativeBuild/cmake/productionRelease/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/wojciech/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/wojciech/Library/Android/sdk/ndk-bundle/sysroot  -Ddlib_EXPORTS -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/wojciech/Documents/car-recognition-android/app/src/main/cpp/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp",
+					"workingDirectory" : "/Users/wojciech/Documents/car-recognition-android/app/.externalNativeBuild/cmake/productionRelease/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/wojciech/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/wojciech/Library/Android/sdk/ndk-bundle/sysroot  -Ddlib_EXPORTS -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/wojciech/Documents/car-recognition-android/app/src/main/cpp/dlib/base64/base64_kernel_1.cpp",
+					"workingDirectory" : "/Users/wojciech/Documents/car-recognition-android/app/.externalNativeBuild/cmake/productionRelease/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/wojciech/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/wojciech/Library/Android/sdk/ndk-bundle/sysroot  -Ddlib_EXPORTS -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/wojciech/Documents/car-recognition-android/app/src/main/cpp/dlib/threads/threads_kernel_1.cpp",
+					"workingDirectory" : "/Users/wojciech/Documents/car-recognition-android/app/.externalNativeBuild/cmake/productionRelease/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/wojciech/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/wojciech/Library/Android/sdk/ndk-bundle/sysroot  -Ddlib_EXPORTS -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/wojciech/Documents/car-recognition-android/app/src/main/cpp/dlib/threads/threads_kernel_2.cpp",
+					"workingDirectory" : "/Users/wojciech/Documents/car-recognition-android/app/.externalNativeBuild/cmake/productionRelease/arm64-v8a"
+				}
+			],
+			"output" : "/Users/wojciech/Documents/car-recognition-android/app/build/intermediates/cmake/production/release/obj/arm64-v8a/libdlib.so",
+			"toolchain" : "1192250165425117180"
+		},
+		"native-lib-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/wojciech/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/wojciech/Documents/car-recognition-android/app/.externalNativeBuild/cmake/productionRelease/arm64-v8a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/wojciech/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/wojciech/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/wojciech/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/wojciech/Documents/car-recognition-android/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/wojciech/Documents/car-recognition-android/app/.externalNativeBuild/cmake/productionRelease/arm64-v8a"
+				}
+			],
+			"output" : "/Users/wojciech/Documents/car-recognition-android/app/build/intermediates/cmake/production/release/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "1192250165425117180"
+		}
+	},
+	"toolchains" : 
+	{
+		"1192250165425117180" : 
+		{
+			"cCompilerExecutable" : "/Users/wojciech/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/wojciech/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

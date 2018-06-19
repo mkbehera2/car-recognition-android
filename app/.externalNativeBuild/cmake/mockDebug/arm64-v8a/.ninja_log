@@ -1,0 +1,12 @@
+# ninja log v5
+3	87	0	CMakeFiles/dlib.dir/src/main/cpp/dlib/threads/threads_kernel_1.cpp.o	e13d2bb3d8ddf169
+1	1217	0	CMakeFiles/dlib.dir/src/main/cpp/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp.o	ffaed1d61c01b35
+2	1221	0	CMakeFiles/dlib.dir/src/main/cpp/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp.o	d057ef9358703e7
+2	1359	0	CMakeFiles/dlib.dir/src/main/cpp/dlib/base64/base64_kernel_1.cpp.o	e737a99697ae715c
+3	1549	0	CMakeFiles/dlib.dir/src/main/cpp/dlib/threads/threads_kernel_2.cpp.o	762361301be01b8a
+1	1781	0	CMakeFiles/dlib.dir/src/main/cpp/dlib/threads/threads_kernel_shared.cpp.o	94ab85605bd538d5
+1781	1850	0	../../../../build/intermediates/cmake/mock/debug/obj/arm64-v8a/libdlib.so	3146924b0ac71e28
+1850	9558	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	7961162e8363d6ee
+9561	9686	0	../../../../build/intermediates/cmake/mock/debug/obj/arm64-v8a/libnative-lib.so	46f1916c28fe6c74
+8	7496	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	7961162e8363d6ee
+7496	7611	0	../../../../build/intermediates/cmake/mock/debug/obj/arm64-v8a/libnative-lib.so	46f1916c28fe6c74

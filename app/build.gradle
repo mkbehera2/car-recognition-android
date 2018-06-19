@@ -29,6 +29,15 @@ android {
         versionName '0.1.0'
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        externalNativeBuild {
+            cmake {
+                // Passes optional arguments to CMake.
+                arguments "-DANDROID_STL=c++_shared"
+                //cFlags "-DDLIB_JPEG_SUPPORT=on -DDLIB_JPEG_STATIC=on"
+                cppFlags "-std=c++11","-frtti", "-fexceptions"
+            }
+        }
     }
 
     buildTypes {
@@ -51,6 +60,12 @@ android {
             useProguard true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'),
                     'proguard-rules.pro'
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
         }
     }
 
